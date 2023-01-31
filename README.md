@@ -10,9 +10,9 @@ software used
 
 contributers 
 
+Part II: CD/Vinyl
 
-
-Part I: Sales vs Rating Analysis
+Part III: Sales vs Rating Analysis
 
 Objective: Determine the total sale and average rating for each artist to derive potential correlations between the two data points to inform future stakeholders whether the higher rating guarentees higher sales. 
 
@@ -23,5 +23,6 @@ Functions used:
 - Ascending
 - Plt.Scatter
 - Plt.Bar
+- Plt.Pie
 
 Findings: There is a very week positive correlation between Total Sales and Average Ratings. While the highest sales did have high ratings, there are also artists that had high ratings but few reviews. 
