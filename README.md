@@ -1,5 +1,16 @@
 # Amazon Review Analysis
 
+General intro 
+
+findings 
+
+graphical representations
+
+software used 
+
+contributers 
+
+
 
 Part I: Sales vs Rating Analysis
 
