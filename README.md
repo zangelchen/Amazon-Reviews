@@ -14,7 +14,6 @@ Part I: Roger
 
 Part II: CD/Vinyl vs Digital Mussic comparative analysis of overall rating 
 
-<img width="891" alt="Screenshot_20230130_100030" src="https://user-images.githubusercontent.com/116226080/215680897-c5a02760-3290-4fda-a77e-0abf67aa8b2f.png">
 
 
 Part III: Sales vs Rating Analysis
