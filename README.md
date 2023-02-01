@@ -34,8 +34,10 @@ EXAMPLE OF ONE DATA FRAME CREATED
 
 # Part 2- 
 We begin a two pronged strategy for anlyzing 2 seperate categories:
-  A. Comparative analyis of digital music vs that of CD/Vinyl 
-  B. Compared the total sales vs average ranking 
+
+A. Comparative analyis of digital music vs that of CD/Vinyl 
+
+B. Compared the total sales vs average ranking 
   
 # A:
 
