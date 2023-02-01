@@ -3,7 +3,11 @@
 
 Collaborators: Angel Chen, Amr Ismail, Roger Zatarain, Drew Barnhart, & Cesar Ruiz
 
-Language: Python
+# Background
+
+We developed a code to using JSON files extracted from Amazon Reviews API. Our aspirration was to examine categories within the Music Genre and create analysis based on the reviews provided. Our Data gave multiple categories to choose from and allowed us to compare and contrast manageable and easily accessible data source for example: CD & Vinyls and Digital music.Our goals was to provide better understanding of customer opinions, preferences, and top genres to help our audience: Music customers, producers, & musicians. 
+
+Software Used: Python
 
 Functions used: 
 - Groupby
@@ -13,10 +17,6 @@ Functions used:
 - Plt.Scatter
 - Plt.Bar
 - Plt.Pie
-
-# Background
-
-We developed a code to using JSON files extracted from Amazon Reviews API. Our aspirration was to examine categories within the Music Genre and create analysis based on the reviews provided. Our Data gave multiple categories to choose from and allowed us to compare and contrast manageable and easily accessible data source for example: CD & Vinyls and Digital music.Our goals was to provide better understanding of customer opinions, preferences, and top genres to help our audience: Music customers, producers, & musicians. 
 
 <img width="891" alt="Screenshot_20230130_100030" src="https://user-images.githubusercontent.com/116226080/215921369-b51ea6a0-edc8-4f8b-ba4c-59bd3ffb3892.png">
 RAW DATA VISUALIZATION
@@ -67,13 +67,13 @@ We begin a two pronged strategy for anlyzing 2 seperate categories:
 
 
 
-General intro 
+
 
 findings 
 
-graphical representations
 
-software used 
+
+
 
 contributers 
 
