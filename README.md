@@ -1,16 +1,40 @@
 # Amazon Review Analysis
+## Digital vs Vinyl/CD sales & top ranked branked brands in the industtry!
 
-# Python API Project - What's the Weather Like?
+Collaborators: Angel Chen, Amr Ismail, Roger Zatarain, Drew Barnhart, & Cesar Ruiz
+
+Language: Python
+
+Functions used: 
+- Groupby
+- Creating dataframe
+- Sort_Value
+- Ascending
+- Plt.Scatter
+- Plt.Bar
+- Plt.Pie
 
 # Background
 
-I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator.
+We developed a code to using JSON files extracted from Amazon Reviews API. Our aspirration was to examine categories within the Music Genre and create analysis based on the reviews provided. Our Data gave multiple categories to choose from and allowed us to compare and contrast manageable and easily accessible data source for example: CD & Vinyls and Digital music.Our goals was to provide better understanding of customer opinions, preferences, and top genres to help our audience: Music customers, producers, & musicians. 
 
-# Part I - WeatherPy
+# Part I - 
+1. initially we Extracted JSON Digital Music, Meta Digital Music, CD, & Meta CD
+2. Created a For Loop to Read JSON
+3. Merged Digital Muisc and Meta Digital Music 
+4. Merged CD and MetaCD
+5. Finally, we created a DataFrame groupby ASIN
 
-I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized [simple Python library](https://pypi.python.org/pypi/citipy) and [OpenWeatherMap API](https://openweathermap.org/api)
+# Part 2- 
+1. We begin a two pronged strategy for anlyzing 2 seperate categories:
+  A. Comparative analyis of digital music vs that of CD/Vinyl 
+  B. Compared the total sales vs average ranking 
+  
+2. For A, 
 
-To see my Python script, check jupyter notebook [here](https://github.com/kanamoore/python-api-challenge/blob/master/WeatherPy/WeatherPy.ipynb)
+
+
+
 
 ## Observation
 
