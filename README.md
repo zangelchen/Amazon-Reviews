@@ -1,13 +1,17 @@
 # Amazon Review Analysis
-## Digital vs Vinyl/CD sales & top ranked branked brands in the industtry!
+## Digital vs Vinyl/CD sales & top ranked brands in the industry!
 
 Collaborators: Angel Chen, Amr Ismail, Roger Zatarain, Drew Barnhart, & Cesar Ruiz
 
 # Background
 
-We developed a code to using JSON files extracted from Amazon Reviews API. Our aspirration was to examine categories within the Music Genre and create analysis based on the reviews provided. Our Data gave multiple categories to choose from and allowed us to compare and contrast manageable and easily accessible data source for example: CD & Vinyls and Digital music.Our goals was to provide better understanding of customer opinions, preferences, and top genres to help our audience: Music customers, producers, & musicians. 
+We developed a code to using JSON files extracted from Amazon Reviews API. Our aspirration was to examine categories within the Music Genre and create analysis based on the reviews provided. Our Data gave multiple categories to choose from and allowed us to compare and contrast manageable and easily accessible data source for example: CD & Vinyls and Digital music.
 
 Link from where data was derived: https://nijianmo.github.io/amazon/index.html
+
+# Objective
+
+Determine the total sale and average rating for each artist to derive potential correlations between the two data points to inform future stakeholders whether the higher rating guarentees higher sales. Our goals was to provide better understanding of customer opinions, preferences, and top genres to help: Music consumers, producers, & musicians. 
 
 Software Used: Python
 
@@ -19,13 +23,6 @@ Functions used:
 - Plt.Scatter
 - Plt.Bar
 - Plt.Pie
-
-RAW DATA VISUALIZATION
-<img width="891" alt="Screenshot_20230130_100030" src="https://user-images.githubusercontent.com/116226080/215921369-b51ea6a0-edc8-4f8b-ba4c-59bd3ffb3892.png">
-
-EXAMPLE OF ONE DATA FRAME CREATED
-<img width="1015" alt="Screenshot_20230130_085613" src="https://user-images.githubusercontent.com/116226080/215922213-5777a3eb-c6be-4bf5-8502-716abcd00ca9.png">
-
 
 # Part I - 
 1. initially we Extracted JSON Digital Music, Meta Digital Music, CD, & Meta CD
@@ -84,39 +81,12 @@ Worked off of Digital Music Only (
 
 
 
+RAW DATA VISUALIZATION
+<img width="891" alt="Screenshot_20230130_100030" src="https://user-images.githubusercontent.com/116226080/215921369-b51ea6a0-edc8-4f8b-ba4c-59bd3ffb3892.png">
 
+EXAMPLE OF ONE DATA FRAME CREATED
+<img width="1015" alt="Screenshot_20230130_085613" src="https://user-images.githubusercontent.com/116226080/215922213-5777a3eb-c6be-4bf5-8502-716abcd00ca9.png">
 
-
-
-
-
-
-findings 
-
-
-
-
-
-contributers 
-
-Part I: Roger
-
-Part II: CD/Vinyl vs Digital Mussic comparative analysis of overall rating 
-
-
-
-Part III: Sales vs Rating Analysis
-
-Objective: Determine the total sale and average rating for each artist to derive potential correlations between the two data points to inform future stakeholders whether the higher rating guarentees higher sales. 
-
-Functions used: 
-- Groupby
-- Creating dataframe
-- Sort_Value
-- Ascending
-- Plt.Scatter
-- Plt.Bar
-- Plt.Pie
 
 
 
