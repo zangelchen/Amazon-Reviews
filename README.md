@@ -42,10 +42,11 @@ B. Compared the total sales vs average ranking and found top 20 ranked/selling a
   
 # A: Digital Music vs CD/Vinyl 
 
-We created a graph from our merged DataFrame to establish a count of total count of ratings compared to actual rating (1-5)
-Within this graph we integrated the distribution to show the spread independent to each rating as well. 
+#####Graph 1
 
 ![image](https://user-images.githubusercontent.com/116226080/215923525-25d6abf5-c233-4287-8375-39970359c116.png)
+We created a graph from our merged DataFrame to establish a count of total count of ratings compared to actual rating (1-5)
+Within this graph we integrated the distribution to show the spread independent to each rating as well. We found that majority of the reviews given were generally positive 4 & 5's while lower rankings were a minority.
 
 We then counted the cummulative ratings of Digital Music and Vinyl/CDs and depicted them via Pie Charts 
 
