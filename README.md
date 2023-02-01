@@ -1,5 +1,5 @@
 # Amazon Reviews
-## Digital vs Vinyl/CD sales & top ranked brands in the industry!
+# Digital vs Vinyl/CD sales & top ranked brands in the industry!
 
 Collaborators: Angel Chen, Amr Ismail, Roger Zatarain, Drew Barnhart, & Cesar Ruiz
 
@@ -13,19 +13,16 @@ Link from where data was derived: https://nijianmo.github.io/amazon/index.html
 
 Determine the total sale and average rating for each artist to derive potential correlations between the two data points to inform future stakeholders whether the higher rating guarentees higher sales. Our goals was to provide better understanding of customer opinions, preferences, and top genres to help: Music consumers, producers, & musicians. 
 
-Software Used:
-- Python
+# Research Questions
+What is the distribution of digital music vs physical music and does that provide any indication on the quality of the data?
 
-Functions used: 
-- Groupby
-- Creating dataframe
-- Sort_Value
-- Ascending
-- Plt.Scatter
-- Plt.Bar
-- Plt.Pie
+How does the distribution of digital music vs physical music overall rating compare with each other?
 
-# Part I - 
+What are the top 20 most popular songs? 
+
+Does popular music mean higher rated reviews? 
+
+# Part I  
 1. Original raw data was provided in a raw JSON format that was visually difficult to decipher. Our initial task was to read it into our Jupyter Notebook and then create a data frame that provided more accessible depiction of the data. 
 2. initially we Extracted JSON Digital Music, Meta Digital Music, CD, & Meta CD
 3. Created a For Loop to Read JSON
@@ -33,7 +30,7 @@ Functions used:
 5. Merged CD and MetaCD
 6. Finally, we created a DataFrame groupby ASIN (Product ID specific to Amazon)
 
-# Part 2- 
+# Part 2
 We begin a two pronged strategy for anlyzing 2 seperate categories:
 
 A. Comparative analyis of digital music vs that of CD/Vinyl 
@@ -42,7 +39,7 @@ B. Compared the total sales vs average ranking and found top 20 ranked/selling a
   
 # A: Digital Music vs CD/Vinyl 
 
-#####Graph 1
+##### Graph 1
 
 ![image](https://user-images.githubusercontent.com/116226080/215923525-25d6abf5-c233-4287-8375-39970359c116.png)
 We created a graph from our merged DataFrame to establish a count of total count of ratings compared to actual rating (1-5)
@@ -53,13 +50,10 @@ We then counted the cummulative ratings of Digital Music and Vinyl/CDs and depic
 #### Digital Music Overall
 ![image](https://user-images.githubusercontent.com/116226080/215924754-e16b139d-ce5c-4a5a-bfcf-22ba9151f7c9.png)
 
-#### CD/Vinyl Overall
 ![image](https://user-images.githubusercontent.com/116226080/215924855-0b4312d0-3a12-466b-a4cb-da4cee7747ed.png)
 
 Its interesting to note that there were more 5’s in CD & Vinyl (65% vs 55%), But less 4’s & 3’s compared to Digital Music. However the median ranking between either of them was comparable. This observation was further re enforced by the box & whisker plot we developed. 
 
-
-####Box & Whisker
 ![image](https://user-images.githubusercontent.com/116226080/215932277-a85328f0-5a0e-4734-bf34-2d7329a1c12b.png)
 The Box & Whisker plot below shows how comparable these means and findings from Quartile calculations. With nearly identical ranges!
 
@@ -71,10 +65,7 @@ Finding: When plotted the graph shows a very weak negative correlation between t
 
 # B: Total Sales, Highest Ranking, Top 20 & Comparative Analysis
 
-Ascending Total sales by average rating
-
 Worked off of both Digital Music and CD & Vinyl
-
 
 
 <img width="384" alt="Screenshot_20230130_083524" src="https://user-images.githubusercontent.com/116226080/215922333-02a45caa-df60-45f1-869e-b7fc8345fc95.png">
@@ -89,8 +80,19 @@ Worked off of both Digital Music and CD & Vinyl
 <img width="459" alt="Screenshot_20230130_080306" src="https://user-images.githubusercontent.com/116226080/215922577-324cdd31-299e-45e3-affc-7585a1734381.png">
 
 
+Findings: There is a very week positive correlation between Total Sales and Average Ratings. While the highest sales did have high ratings, there are also artists that had high ratings but few reviews. 
 
+Software Used:
+- Python
 
+Functions used: 
+- Groupby
+- Creating dataframe
+- Sort_Value
+- Ascending
+- Plt.Scatter
+- Plt.Bar
+- Plt.Pie
 
 
 RAW DATA VISUALIZATION
@@ -98,8 +100,3 @@ RAW DATA VISUALIZATION
 
 EXAMPLE OF ONE DATA FRAME CREATED
 <img width="1015" alt="Screenshot_20230130_085613" src="https://user-images.githubusercontent.com/116226080/215922213-5777a3eb-c6be-4bf5-8502-716abcd00ca9.png">
-
-
-
-
-Findings: There is a very week positive correlation between Total Sales and Average Ratings. While the highest sales did have high ratings, there are also artists that had high ratings but few reviews. 
