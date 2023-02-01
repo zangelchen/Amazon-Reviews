@@ -42,9 +42,20 @@ We begin a two pronged strategy for anlyzing 2 seperate categories:
 # A: Digital Music vs CD/Vinyl 
 
 We created a graph from our merged DataFrame to establish a count of total count of ratings compared to actual rating (1-5)
-Within this graph we integrated the distribution to show the 
+Within this graph we integrated the distribution to show the spread independent to each rating as well. 
 
 ![image](https://user-images.githubusercontent.com/116226080/215923525-25d6abf5-c233-4287-8375-39970359c116.png)
+
+We then counted the cummulative ratings of Digital Music and Vinyl/CDs and depicted them via Pie Charts 
+
+#### Digital Music Overall
+![image](https://user-images.githubusercontent.com/116226080/215924754-e16b139d-ce5c-4a5a-bfcf-22ba9151f7c9.png)
+
+#### CD/Vinyl Overall
+![image](https://user-images.githubusercontent.com/116226080/215924855-0b4312d0-3a12-466b-a4cb-da4cee7747ed.png)
+
+It was interesting to not that CD/Vinyl had 64% ranked at a perfect 5, whhile digital music's overall % of 5's was only 55%
+
 
 
 # B: Total Sales, Highest Ranking, Top 20 & Comparative Analysis
