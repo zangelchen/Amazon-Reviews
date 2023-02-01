@@ -56,13 +56,12 @@ We then counted the cummulative ratings of Digital Music and Vinyl/CDs and depic
 #### CD/Vinyl Overall
 ![image](https://user-images.githubusercontent.com/116226080/215924855-0b4312d0-3a12-466b-a4cb-da4cee7747ed.png)
 
-Its interesting to note that there were more 5’s in CD & Vinyl (65% vs 55%), But less 4’s & 3’s compared to Digital Music. However the median ranking between either of them was comparable. 
+Its interesting to note that there were more 5’s in CD & Vinyl (65% vs 55%), But less 4’s & 3’s compared to Digital Music. However the median ranking between either of them was comparable. This observation was further re enforced by the box & whisker plot we developed. 
 
-The Box & Whisker plot below shows how comparable these means and findings from Quartile calculations 
 
 ####Box & Whisker
 ![image](https://user-images.githubusercontent.com/116226080/215932277-a85328f0-5a0e-4734-bf34-2d7329a1c12b.png)
-
+The Box & Whisker plot below shows how comparable these means and findings from Quartile calculations. With nearly identical ranges!
 
 The graph below depicts the number of reviews given to an album vs. Avg Rating in the digital music dataset. 
 
