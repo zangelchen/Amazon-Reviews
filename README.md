@@ -13,7 +13,8 @@ Link from where data was derived: https://nijianmo.github.io/amazon/index.html
 
 Determine the total sale and average rating for each artist to derive potential correlations between the two data points to inform future stakeholders whether the higher rating guarentees higher sales. Our goals was to provide better understanding of customer opinions, preferences, and top genres to help: Music consumers, producers, & musicians. 
 
-Software Used: Python
+Software Used:
+- Python
 
 Functions used: 
 - Groupby
@@ -25,11 +26,12 @@ Functions used:
 - Plt.Pie
 
 # Part I - 
-1. initially we Extracted JSON Digital Music, Meta Digital Music, CD, & Meta CD
-2. Created a For Loop to Read JSON
-3. Merged Digital Muisc and Meta Digital Music 
-4. Merged CD and MetaCD
-5. Finally, we created a DataFrame groupby ASIN
+1. Original raw data was provided in a raw JSON format that was visually difficult to decipher. Our initial task was to read it into our Jupyter Notebook and then create a data frame that provided more accessible depiction of the data. 
+2. initially we Extracted JSON Digital Music, Meta Digital Music, CD, & Meta CD
+3. Created a For Loop to Read JSON
+4. Merged Digital Muisc and Meta Digital Music 
+5. Merged CD and MetaCD
+6. Finally, we created a DataFrame groupby ASIN (Product ID specific to Amazon)
 
 # Part 2- 
 We begin a two pronged strategy for anlyzing 2 seperate categories:
@@ -53,9 +55,19 @@ We then counted the cummulative ratings of Digital Music and Vinyl/CDs and depic
 #### CD/Vinyl Overall
 ![image](https://user-images.githubusercontent.com/116226080/215924855-0b4312d0-3a12-466b-a4cb-da4cee7747ed.png)
 
-It was interesting to not that CD/Vinyl had 64% ranked at a perfect 5, whhile digital music's overall % of 5's was only 55%
+Its interesting to note that there were more 5’s in CD & Vinyl (65% vs 55%), But less 4’s & 3’s compared to Digital Music. However the median ranking between either of them was comparable. 
+
+The Box & Whisker plot below shows how comparable these means and findings from Quartile calculations 
+
+####Box & Whisker
+![image](https://user-images.githubusercontent.com/116226080/215932277-a85328f0-5a0e-4734-bf34-2d7329a1c12b.png)
 
 
+The graph below depicts the number of reviews given to an album vs. Avg Rating in the digital music dataset. 
+
+![image](https://user-images.githubusercontent.com/116226080/215932600-73afaa5f-4a98-4cec-be7d-a149e2ade3df.png)
+
+Finding: When plotted the graph shows a very weak negative correlation between these two variables. The ranking did relate to the review count, with higher rankings tending to have more cummulative reviews. We initially suspected that more prople would leave a review when disatisfied with the product. But the result was the opposite. Potentially our initial assumption would be true for other genre like Food, Toys, etc. 
 
 # B: Total Sales, Highest Ranking, Top 20 & Comparative Analysis
 
