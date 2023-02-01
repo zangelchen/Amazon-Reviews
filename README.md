@@ -34,9 +34,9 @@ Functions used:
 # Part 2- 
 We begin a two pronged strategy for anlyzing 2 seperate categories:
 
-##A. Comparative analyis of digital music vs that of CD/Vinyl 
+A. Comparative analyis of digital music vs that of CD/Vinyl 
 
-##B. Compared the total sales vs average ranking and found top 20 ranked/selling artists/bands
+B. Compared the total sales vs average ranking and found top 20 ranked/selling artists/bands
   
 # A: Digital Music vs CD/Vinyl 
 
