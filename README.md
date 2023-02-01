@@ -1,4 +1,6 @@
 # Amazon Reviews
+![image](https://user-images.githubusercontent.com/116226080/215937661-8049e0ec-a12e-4956-82c7-f8b0b9ae908c.png)
+
 # Digital vs Vinyl/CD sales & top ranked brands in the industry!
 
 *Collaborators: Angel Chen, Amr Ismail, Roger Zatarain, Drew Barnhart, & Cesar Ruiz*
