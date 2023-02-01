@@ -44,7 +44,6 @@ We begin a two pronged strategy for anlyzing 2 seperate categories:
 
 # B:
 
-<img width="459" alt="Screenshot_20230130_080306" src="https://user-images.githubusercontent.com/116226080/215922577-324cdd31-299e-45e3-affc-7585a1734381.png">
 
 
 <img width="384" alt="Screenshot_20230130_083524" src="https://user-images.githubusercontent.com/116226080/215922333-02a45caa-df60-45f1-869e-b7fc8345fc95.png">
@@ -52,6 +51,8 @@ We begin a two pronged strategy for anlyzing 2 seperate categories:
 
 <img width="483" alt="Screenshot_20230130_080802" src="https://user-images.githubusercontent.com/116226080/215922541-dca94816-028b-40b9-b78c-c772dd063644.png">
 
+
+<img width="459" alt="Screenshot_20230130_080306" src="https://user-images.githubusercontent.com/116226080/215922577-324cdd31-299e-45e3-affc-7585a1734381.png">
 
 <img width="515" alt="Screenshot_20230130_083228" src="https://user-images.githubusercontent.com/116226080/215922364-e9c8c131-b932-4546-83e2-4012f04c0371.png">
 
