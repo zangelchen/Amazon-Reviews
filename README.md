@@ -7,6 +7,8 @@ Collaborators: Angel Chen, Amr Ismail, Roger Zatarain, Drew Barnhart, & Cesar Ru
 
 We developed a code to using JSON files extracted from Amazon Reviews API. Our aspirration was to examine categories within the Music Genre and create analysis based on the reviews provided. Our Data gave multiple categories to choose from and allowed us to compare and contrast manageable and easily accessible data source for example: CD & Vinyls and Digital music.Our goals was to provide better understanding of customer opinions, preferences, and top genres to help our audience: Music customers, producers, & musicians. 
 
+Link too where data was derived: https://nijianmo.github.io/amazon/index.html
+
 Software Used: Python
 
 Functions used: 
