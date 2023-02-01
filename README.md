@@ -73,7 +73,7 @@ Finding: When plotted the graph shows a very weak negative correlation between t
 
 Ascending Total sales by average rating
 
-Worked off of Digital Music Only (
+Worked off of both Digital Music and CD & Vinyl
 
 
 
