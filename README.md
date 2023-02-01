@@ -18,11 +18,11 @@ Functions used:
 - Plt.Bar
 - Plt.Pie
 
-<img width="891" alt="Screenshot_20230130_100030" src="https://user-images.githubusercontent.com/116226080/215921369-b51ea6a0-edc8-4f8b-ba4c-59bd3ffb3892.png">
 RAW DATA VISUALIZATION
+<img width="891" alt="Screenshot_20230130_100030" src="https://user-images.githubusercontent.com/116226080/215921369-b51ea6a0-edc8-4f8b-ba4c-59bd3ffb3892.png">
 
-<img width="1015" alt="Screenshot_20230130_085613" src="https://user-images.githubusercontent.com/116226080/215922213-5777a3eb-c6be-4bf5-8502-716abcd00ca9.png">
 EXAMPLE OF ONE DATA FRAME CREATED
+<img width="1015" alt="Screenshot_20230130_085613" src="https://user-images.githubusercontent.com/116226080/215922213-5777a3eb-c6be-4bf5-8502-716abcd00ca9.png">
 
 
 # Part I - 
@@ -39,10 +39,18 @@ We begin a two pronged strategy for anlyzing 2 seperate categories:
   
 # A:
 
+We created a graph from our merged DataFrame to establish a count of total count of ratings compared to actual rating (1-5)
+Within this graph we integrated the distribution to show the 
+
+![image](https://user-images.githubusercontent.com/116226080/215923525-25d6abf5-c233-4287-8375-39970359c116.png)
 
 
 
 # B:
+
+Ascending Total sales by average rating
+
+Worked off of Digital Music Only (
 
 
 
