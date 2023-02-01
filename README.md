@@ -29,4 +29,6 @@ Functions used:
 - Plt.Bar
 - Plt.Pie
 
+
+
 Findings: There is a very week positive correlation between Total Sales and Average Ratings. While the highest sales did have high ratings, there are also artists that had high ratings but few reviews. 
