@@ -18,6 +18,8 @@ Functions used:
 
 We developed a code to using JSON files extracted from Amazon Reviews API. Our aspirration was to examine categories within the Music Genre and create analysis based on the reviews provided. Our Data gave multiple categories to choose from and allowed us to compare and contrast manageable and easily accessible data source for example: CD & Vinyls and Digital music.Our goals was to provide better understanding of customer opinions, preferences, and top genres to help our audience: Music customers, producers, & musicians. 
 
+<img width="891" alt="Screenshot_20230130_100030" src="https://user-images.githubusercontent.com/116226080/215921369-b51ea6a0-edc8-4f8b-ba4c-59bd3ffb3892.png">
+
 # Part I - 
 1. initially we Extracted JSON Digital Music, Meta Digital Music, CD, & Meta CD
 2. Created a For Loop to Read JSON
@@ -38,15 +40,11 @@ We developed a code to using JSON files extracted from Amazon Reviews API. Our a
 
 ## Observation
 
-- Southern Hemisphere climates tend to be slightly milder than those at similar latitudes in the Northern Hemisphere. This is because the Southern Hemisphere has significantly more ocean and much less land; water heats up and cools down more slowly than land.
 
-- "Highest temperature is found at 0 latitude and as the latidude increases or decreases, temperature drops. This happens as equatorial region receives sunlight straight with less or no angle due to curvature shape of earth.\n",
 
-- "Latitude doesn't have a strong iinfluence on wind speed. The speed of the wind is controlled by the strength of the air pressure gradient, the stronger the pressure gradient the higher the wind speed. "
 
-## Objectives
 
-My first objective is to build a series of scatter plots to showcase the following relationships:
+
 
 General intro 
 
