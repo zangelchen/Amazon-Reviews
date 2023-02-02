@@ -2,7 +2,7 @@
 
 ## Digital vs Vinyl/CD sales & top ranked brands in the industry!
 
-*Collaborators: Angel Chen, Amr Ismail, Roger Zatarain, Drew Barnhart, & Cesar Ruiz*
+*Collaborators: Angel Chen, Amr Ismail, Roger Zatarain, & Drew Barnhart*
 
 # Background
 
